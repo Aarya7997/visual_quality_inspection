@@ -57,7 +57,7 @@ pip install -r requirements.txt
    - combined heatmap
    - final PASS / REVIEW / FAIL result
 
-## How to explain the ML part to your professor
+##  The ML part 
 
 - The original project used fixed image-processing thresholds.
 - This upgraded version extracts visual features from the product image.
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ## Future DL extension
 
-If you want to convert this into a deep-learning version later, the next step is to replace handcrafted features with:
+If I want to convert this into a deep learning version later, the next step will be to replace features with:
 
 - CNN embeddings from a pretrained backbone such as MobileNet
 - or an autoencoder for unsupervised anomaly detection
